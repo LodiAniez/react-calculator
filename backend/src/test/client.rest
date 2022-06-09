@@ -1,0 +1,47 @@
+POST http://localhost:3000/user/add
+Content-Type: application/json
+
+{
+	"firstname": "dawd",
+	"lastname": "dawd",
+	"address": "dawda del Sur",
+	"postcode": "7023",
+	"contact": "09383673346",
+	"email": "ghtfh@gmail.com",
+	"username": "htfghsd",
+	"password": "degrtg"
+}
+
+###
+
+POST http://localhost:3000/user/edit
+Content-Type: application/json
+
+{
+	"firstname": "James",
+	"lastname": "Reid",
+	"address": "Zamboanga del Sur",
+	"postcode": "7023",
+	"contact": "09383673346",
+	"email": "grsdgsd@gmail.com",
+	"username": "aniezfsefgwapo",
+	"password": "test1234",
+	"id": 5
+}
+
+###
+
+DELETE http://localhost:3000/user/delete/6
+
+###
+
+POST http://localhost:3000/user/batchdelete
+Content-Type: application/json
+
+{
+	"ids": [5, 7]
+} 
+
+###
+
+GET http://localhost:3000/user/list
