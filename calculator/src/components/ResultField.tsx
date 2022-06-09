@@ -1,5 +1,5 @@
 import React from "react";
-import "./ResultField.css"
+import "./../App.css"
 import { useContext } from 'react';
 import { InputValue } from "../contexts/input";
 
